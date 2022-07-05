@@ -62,5 +62,181 @@
     "name": "HTML entities & special character",
     "description": "Useful reference enable you to use the characters that cannot be expressed in the document's character encoding.",
     "section": "html"
+  },
+  {
+    "id": "0009",
+    "image": "resources/image/mdn.png",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference",
+    "name": "CSS Reference",
+    "description": "MDN CSS Reference describes every property and concept of CSS.",
+    "section": "css"
+  },
+  {
+    "id": "0010",
+    "image": "resources/image/caniuse.png",
+    "url": "https://caniuse.com/",
+    "name": "caniuse",
+    "description": "'Can I use' provides up-to-date browser support tables for front-end technologies on desktop and mobile web browsers.",
+    "section": "css"
+  },
+  {
+    "id": "0011",
+    "image": "resources/image/css-tricks-3.png",
+    "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+    "name": "Complete Guide to Flexbox",
+    "description": "Useful flexbox reference, focusing on all the different possible properties for the parent element and the child elements.",
+    "section": "css"
+  },
+  {
+    "id": "0012",
+    "image": "resources/image/codrops.png",
+    "url": "http://tympanus.net/codrops/css_reference/",
+    "name": "CSS Reference",
+    "description": "Useful CSS reference with all the important properties and info to learn CSS from the basics",
+    "section": "css"
+  },
+  {
+    "id": "0013",
+    "image": "resources/image/30css.svg",
+    "url": "https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048",
+    "name": "30 Selectors Must Know",
+    "description": "List of 30 most important CSS selectors every front-end developers should know by Jeffrey Way.",
+    "section": "css"
+  },
+  {
+    "id": "0014",
+    "image": "resources/image/mdn.png",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference",
+    "name": "JavaScript Reference",
+    "description": "MDN JavaScript Reference help understanding some of its capabilities or features.",
+    "section": "javascript"
+  },
+  {
+    "id": "0015",
+    "image": "resources/image/mdn.png",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#table",
+    "name": "JS Operator precedence table",
+    "description": "Understand the Operator order from highest precedence to lowest precedence is necessary to evaluate",
+    "section": "javascript"
+  },
+  {
+    "id": "0015",
+    "image": "resources/image/googlefonts.png",
+    "url": "https://fonts.google.com/",
+    "name": "Google Fonts",
+    "description": "Most popular free and easy to use webfont library.",
+    "section": "font"
+  },
+  {
+    "id": "0016",
+    "image": "resources/image/material_palette.jpg",
+    "url": "https://www.materialpalette.com/",
+    "name": "Material Palette",
+    "description": "Material Design palette generated and downloadable color palette.",
+    "section": "color"
+  },
+  {
+    "id": "0017",
+    "image": "resources/image/opencolor.png",
+    "url": "https://yeun.github.io/open-color/",
+    "name": "Open color",
+    "description": "Open color is an open-source color scheme. Optimized for UI like font, background, border, etc.",
+    "section": "color"
+  },
+  {
+    "id": "0018",
+    "image": "resources/image/unsplash.png",
+    "url": "https://unsplash.com/",
+    "name": "Unsplash",
+    "description": "Over 2 million free high-resolution images brought to you by the world’s most generous community of photographers.",
+    "section": "image"
+  },
+  {
+    "id": "0019",
+    "image": "resources/image/pexels.png",
+    "url": "https://www.pexels.com/",
+    "name": "Pexels",
+    "description": "Free stock photos, royalty free images & videos shared by creators.",
+    "section": "image"
+  },
+  {
+    "id": "0020",
+    "image": "resources/image/pixaby.png",
+    "url": "https://pixabay.com/",
+    "name": "Pixabay",
+    "description": "Over 2.6 million+ high quality stock images, videos and music shared by our talented community",
+    "section": "image"
+  },
+  {
+    "id": "0021",
+    "image": "resources/image/44226736.png",
+    "url": "https://iconify.design/",
+    "name": "Iconify",
+    "description": "Iconify is the most versatile icon framework.",
+    "section": "icon"
+  },
+  {
+    "id": "0022",
+    "image": "resources/image/boxicons.JPG",
+    "url": "https://boxicons.com/",
+    "name": "Boxicons",
+    "description": "Open Source icons carefully crafted for designers & developers.",
+    "section": "icon"
+  },
+  {
+    "id": "0023",
+    "image": "resources/image/siteInspire.png",
+    "url": "https://www.siteinspire.com/",
+    "name": "SiteInspire",
+    "description": "Siteinspire is a showcase of the finest web and interactive design.",
+    "section": "design"
+  },
+  {
+    "id": "0024",
+    "image": "resources/image/awwwards.png",
+    "url": "https://www.awwwards.com/",
+    "name": "Awwwards",
+    "description": "Awwwards is pretty much the gold standard when it comes to acknowledging the highest-quality web design produced today.",
+    "section": "design"
+  },
+  {
+    "id": "0025",
+    "image": "resources/image/Behance.jpeg",
+    "url": "https://www.behance.net/",
+    "name": "Behance",
+    "description": "Easy to find massive amounts of web design inspiration from their huge, diverse creative community. ",
+    "section": "design"
+  },
+  {
+    "id": "0026",
+    "image": "resources/image/fcc.png",
+    "url": "https://www.freecodecamp.org/",
+    "name": "FreeCodeCamp",
+    "description": "Great learning web platform to help people learn to code for free.",
+    "section": "blog"
+  },
+  {
+    "id": "0027",
+    "image": "resources/image/stackoverflow.png",
+    "url": "https://stackoverflow.com/",
+    "name": "Stack Overflow",
+    "description": "Biggest programmer community. Ask questions and find best answer to your technical question. Also help others answer theirs.",
+    "section": "blog"
+  },
+  {
+    "id": "0028",
+    "image": "resources/image/css-tricks-3.png",
+    "url": "https://css-tricks.com/",
+    "name": "CSS Tricks",
+    "description": "Keeping yourself up-to-date is paramount. Css Tricks provide daily articles, guides, and even an almanac. mainly focus on front-end development.",
+    "section": "blog"
+  },
+  {
+    "id": "0029",
+    "image": "resources/image/CodingTrain.jpg",
+    "url": "https://www.youtube.com/c/TheCodingTrain",
+    "name": "The Coding Train",
+    "description": "The Coding Train is on its way with creative coding video tutorials on subjects ranging from the basics of programming languages like JavaScript to algorithmic art, machine learning, simulation, generative poetry, and more.",
+    "section": "youtube"
   }
 ]
