@@ -1,10 +1,66 @@
 [
   {
-    "id": "100",
+    "id": "0001",
     "image": "resources/image/vscode.png",
     "url": "https://code.visualstudio.com/download",
     "name": "Visual Studio Code",
     "description": "One of the best text editor that is specialized for writing software.",
+    "section": "tool"
+  },
+  {
+    "id": "0002",
+    "image": "resources/image/Responsinator.png",
+    "url": "http://www.responsinator.com/",
+    "name": "Responsinator",
+    "description": " Free tool use to check the responsiveness of your website. It will show you how your site will look in different Apple devices and Android phone of various sizes. ",
+    "section": "tool"
+  },
+  {
+    "id": "0003",
+    "image": "resources/image/emmet.png ",
+    "url": "https://docs.emmet.io/cheat-sheet/ ",
+    "name": " Emmet Cheat Sheet",
+    "description": "Emmet is a web-developer’s toolkit that can greatly improve your HTML & CSS workflow. ",
+    "section": "tool"
+  },
+  {
+    "id": "0004",
+    "image": "resources/image/codepen.png ",
+    "url": "https://codepen.io/",
+    "name": "Codepen",
+    "description": "CodePen is an online code editor for testing out bugs, collaborating, and finding new inspiration.",
+    "section": "tool"
+  },
+  {
+    "id": "0005",
+    "image": "resources/image/rr.svg",
+    "url": "https://responsively.app/",
+    "name": "Responsively",
+    "description": "Free tool use to check the responsiveness of your website.",
+    "section": "tool"
+  },
+  {
+    "id": "0006",
+    "image": "resources/image/github.png",
+    "url": "https://github.com/",
+    "name": "GitHub",
+    "description": "GitHub is used for version control. It is helpful when more than just one person is working on a project.",
+    "section": "tool"
+  },
+  {
+    "id": "0007",
+    "image": "resources/image/mdn.png",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element",
+    "name": "HTML Reference",
+    "description": "MDN HTML Reference describes details about every element and attribute in HTML.",
+    "section": "html"
+  },
+  {
+    "id": "0008",
+    "image": "resources/image/css-tricks-3.png",
+    "url": "https://css-tricks.com/snippets/html/glyphs/",
+    "name": "HTML entities & special character",
+    "description": "Useful reference enable you to use the characters that cannot be expressed in the document's character encoding.",
     "section": "html"
   }
 ]
