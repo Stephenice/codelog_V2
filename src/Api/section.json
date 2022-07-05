@@ -1,0 +1,10 @@
+[
+  {
+    "id": "100",
+    "image": "resources/image/vscode.png",
+    "url": "https://code.visualstudio.com/download",
+    "name": "Visual Studio Code",
+    "description": "One of the best text editor that is specialized for writing software.",
+    "section": "html"
+  }
+]
