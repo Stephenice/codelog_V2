@@ -11,6 +11,19 @@ function App() {
   const [sectionIconAndName, setSectionIconAndName] = useState(null);
 
   useEffect(() => {
+    fetch(`./section.json`, {
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+    })
+      .then((reponse) => reponse.json())
+      .then((data) => {
+        console.log(data);
+      });
+  }, []);
+
+  useEffect(() => {
     const setSectionIconAndNameObject = [
       { linkID: "tools", iconName: "feather:tool" },
       { linkID: "html", iconName: "icomoon-free:html-five2" },
@@ -26,8 +39,6 @@ function App() {
     ];
     setSectionIconAndName(setSectionIconAndNameObject);
   }, []);
-
-  // console.log(sectionIconAndName);
 
   return (
     <div className="container">
