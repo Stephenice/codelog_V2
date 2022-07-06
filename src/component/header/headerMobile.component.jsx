@@ -1,6 +1,8 @@
 import { useState } from "react";
 
-const HeaderMobile = () => {
+const HeaderMobile = (props) => {
+  const { title, titleLogo } = props;
+
   return (
     <div className="mobile_header">
       <div className="bar_nav">
@@ -14,8 +16,8 @@ const HeaderMobile = () => {
       </div>
 
       <div className="name">
-        <h1 className="headline"> CODELOG</h1>
-        <p className="top_title">Front-End Resources</p>
+        <h1 className="headline"> {title}</h1>
+        <p className="top_title">{titleLogo}</p>
       </div>
     </div>
   );

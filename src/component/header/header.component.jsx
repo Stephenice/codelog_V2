@@ -30,6 +30,7 @@ const Header = () => {
                 <a
                   href="https://stephenice.github.io/personal-portfolio.github.io/#Contact"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Contact
                 </a>

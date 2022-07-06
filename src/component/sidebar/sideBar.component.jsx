@@ -1,31 +1,14 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import SideBarHeader from "./sidebarHeader.component";
 
-const SideBar = () => {
+const SideBar = (props) => {
+  const [navName, setNavName] = useState();
+  const { title, titleLogo, sectionIconAndName } = props;
+  console.log(sectionIconAndName);
+
   return (
     <nav id="navbar" className="item nav">
-      <header className="main-top">
-        <div>
-          <h1 className="headline">CODELOG</h1>
-          <p className="top_title">Front-End Resources</p>
-        </div>
-
-        <div className="mobile_cross">
-          <span
-            className="iconify"
-            data-icon="akar-icons:cross"
-            data-width="40"
-            data-height="40"
-          ></span>
-        </div>
-      </header>
-
-      <div className="mobile_profile_picture">
-        <img src="resources/image/profile.jpg" alt="" />
-        <div className="mobile_profile_detail">
-          <h4>Stephen Ijeh</h4>
-          <p>Front-End Developer</p>
-        </div>
-      </div>
+      <SideBarHeader title={title} titleLogo={titleLogo} />
 
       <ul className="nav-link-container">
         <li className="links">
@@ -34,6 +17,7 @@ const SideBar = () => {
           </a>
         </li>
 
+        {/** 
         <li className="links">
           <a className="nav-link" href="#html">
             <span
@@ -93,22 +77,12 @@ const SideBar = () => {
         </li>
 
         <li className="links">
-          <a className="nav-link" href="#data_sturcture">
+          <a className="nav-link" href="#blog">
             <span
               className="iconify"
               data-icon="mdi:google-circles-communities"
             ></span>
             BLOGS
-          </a>
-        </li>
-
-        <li className="links">
-          <a className="nav-link" href="#algorithms">
-            <span
-              className="iconify"
-              data-icon="carbon:machine-learning-model"
-            ></span>
-            Algorithms
           </a>
         </li>
 
@@ -118,16 +92,7 @@ const SideBar = () => {
             Youtube Channel
           </a>
         </li>
-
-        <li className="links">
-          <a className="nav-link" href="#howTo">
-            <span
-              className="iconify"
-              data-icon="carbon:machine-learning-model"
-            ></span>
-            HOW TO
-          </a>
-        </li>
+        */}
       </ul>
     </nav>
   );
