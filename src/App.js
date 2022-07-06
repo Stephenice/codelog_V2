@@ -11,23 +11,23 @@ function App() {
   const [sectionIconAndName, setSectionIconAndName] = useState(null);
 
   useEffect(() => {
-    const setSectionIconAndNameObject = {
-      tools: "feather:tool",
-      html: "icomoon-free:html-five2",
-      css: "iconoir:css3",
-      javascript: "teenyicons:javascript-outline",
-      fonts: "bi:file-earmark-font",
-      colors: "ci:color",
-      images: "akar-icons:image",
-      icons: "uil:icons",
-      design: "clarity:design-line",
-      blog: "mdi:google-circles-communities",
-      youtube: "feather:youtube",
-    };
+    const setSectionIconAndNameObject = [
+      { linkID: "tools", iconName: "feather:tool" },
+      { linkID: "html", iconName: "icomoon-free:html-five2" },
+      { linkID: "css", iconName: "iconoir:css3" },
+      { linkID: "javascript", iconName: "teenyicons:javascript-outline" },
+      { linkID: "fonts", iconName: "bi:file-earmark-font" },
+      { linkID: "colors ", iconName: "ci:color" },
+      { linkID: "images", iconName: "akar-icons:image" },
+      { linkID: "icons", iconName: "uil:icons" },
+      { linkID: "design", iconName: "clarity:design-line" },
+      { linkID: "blog", iconName: "mdi:google-circles-communities" },
+      { linkID: "youtube", iconName: "feather:youtube" },
+    ];
     setSectionIconAndName(setSectionIconAndNameObject);
   }, []);
 
-  console.log(sectionIconAndName);
+  // console.log(sectionIconAndName);
 
   return (
     <div className="container">
@@ -35,7 +35,7 @@ function App() {
       <SideBar
         title={siteName}
         titleLogo={logo}
-        sectionIconAndName={sectionIconAndName}
+        sectionIconAndName1={sectionIconAndName}
       />
       <ContentContainer />
     </div>
