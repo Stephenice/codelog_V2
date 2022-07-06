@@ -9,8 +9,6 @@ const SideBar = (props) => {
     setNavName(sectionIconAndName1);
   }, [sectionIconAndName1]);
 
-  console.log(navName);
-
   return (
     <>
       <nav id="navbar" className="item nav">

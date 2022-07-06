@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import SideBar from "./component/sidebar/sideBar.component";
 import HeaderMobile from "./component/header/headerMobile.component";
 import ContentContainer from "./component/contentPage/contentContainer.component";
+
 import "./style.css";
 import "./media.css";
 
@@ -9,18 +10,19 @@ function App() {
   const [siteName, setSiteName] = useState("CODELOG");
   const [logo, setLogo] = useState("Front-End Resources");
   const [sectionIconAndName, setSectionIconAndName] = useState(null);
+  const [containerArray, setContainerArray] = useState([]);
+  const [containerDataSet, setContainerDataSet] = useState([]);
 
   useEffect(() => {
-    fetch(`./section.json`, {
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-    })
+    const getData = containerArray.map((data) => data.section);
+    const uniqueSet = new Set(getData);
+    setContainerDataSet([...uniqueSet]);
+  }, [containerArray]);
+
+  useEffect(() => {
+    fetch(`./section.json`)
       .then((reponse) => reponse.json())
-      .then((data) => {
-        console.log(data);
-      });
+      .then((data) => setContainerArray(data));
   }, []);
 
   useEffect(() => {
@@ -30,7 +32,7 @@ function App() {
       { linkID: "css", iconName: "iconoir:css3" },
       { linkID: "javascript", iconName: "teenyicons:javascript-outline" },
       { linkID: "fonts", iconName: "bi:file-earmark-font" },
-      { linkID: "colors ", iconName: "ci:color" },
+      { linkID: "colors", iconName: "ci:color" },
       { linkID: "images", iconName: "akar-icons:image" },
       { linkID: "icons", iconName: "uil:icons" },
       { linkID: "design", iconName: "clarity:design-line" },
@@ -48,7 +50,11 @@ function App() {
         titleLogo={logo}
         sectionIconAndName1={sectionIconAndName}
       />
-      <ContentContainer />
+      <ContentContainer
+        sectionIconAndName1={sectionIconAndName}
+        boxSet={containerDataSet}
+        allData={containerArray}
+      />
     </div>
   );
 }
